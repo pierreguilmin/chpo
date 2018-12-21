@@ -93,6 +93,6 @@ The `data/` folder should contain:
 ## todo list
 
 - [x] rename and format github
-- [ ] OS plots for missense vs truncating
-- [ ] lolliplots height issue
-- [ ] lolliplots comment in notebook + `get_label()` issue
+- [X] OS plots for missense vs truncating
+- [ ] lolliplots height issue: lolliplots are truncated when some mutation circle goes too high
+- [ ] lolliplots `get_label()` issue

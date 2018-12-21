@@ -44,10 +44,19 @@
 \newpage
 \section{Detailed OS plots by gene}
 
+OS (overall survival) plot for the 33 most recurrent mutated genes between:
+\begin{itemize}
+  \item \textbf{wildtype}: patients without any mutation in the studied gene
+  \item \textbf{gene name - reported}: patients with at least one reported mutation in the studied gene
+  \item \textbf{gene name - unreported missense/other only}: patients with mutations in the studied gene but not a single reported mutation \textbf{and} all the mutation consequences in this gene are missense/other
+  \item \textbf{gene name - unreported trunc./nons./splice/infr.}: patients with mutations in the studied gene but not a single reported mutation \textbf{and} at least one of the mutation consequences in this gene is trunc./nons./splice/infr.
+\end{itemize}
+So the old orange curve is split in two between \textbf{gene name - unreported missense/other only} (blue curve) and \textbf{gene name - unreported trunc./nons./splice/infr.} (green curve).
+
 \begin{multicols}{2}
 	\foreach \gene in {TET2, DNMT3A, JAK2, NPM1, SRSF2, RUNX1, ASXL1, NRAS, SF3B1, FLT3, TP53, IDH2, STAG2, CEBPA, U2AF1, EZH2, CALR, PTPN11, IDH1, KRAS, CBL, BCOR, WT1, NF1, ZRSR2, PHF6, KIT, GATA2, RAD21, MPL, SETBP1, CUX1, ETV6}
 	{
-		\centerline{\includegraphics[width=7.8cm, height=7.8cm]{{OS_plots_detailed/OS_\gene.png}}}
+		\centerline{\includegraphics[width=9cm, height=5.4cm]{{OS_plots_detailed/OS_\gene.png}}}
 	}
 \end{multicols}
 
