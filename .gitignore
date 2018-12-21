@@ -18,5 +18,5 @@ data/**
 lollipops/**
 
 # temp
-temp/*
+temp/**
 !temp/.gitkeep
