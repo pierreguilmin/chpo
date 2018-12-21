@@ -1,0 +1,14 @@
+\begin{tabular}{llll}
+\toprule
+      & \textbf{status} & $\times$ indel & \checkmark \\
+\textbf{disease} & \textbf{consequence} &                &            \\
+\midrule
+\textbf{AML} & \textbf{other} &              1 &          0 \\
+      & \textbf{truncating} &              1 &       1385 \\
+\textbf{MDS} & \textbf{truncating} &              0 &         63 \\
+\textbf{MPN} & \textbf{other} &              2 &          0 \\
+\textbf{TOTAL} &       &              4 &       1448 \\
+      &       &         0.00\% &     1.00\% \\
+\bottomrule
+\end{tabular}
+

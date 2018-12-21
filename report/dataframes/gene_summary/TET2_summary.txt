@@ -1,0 +1,25 @@
+\begin{tabular}{lllll}
+\toprule
+      & \textbf{status} & $\times$ indel & $\times$ sub & \checkmark \\
+\textbf{disease} & \textbf{consequence} &                &              &            \\
+\midrule
+\textbf{AML} & \textbf{inframe} &              0 &            0 &          6 \\
+      & \textbf{missense} &              0 &          189 &         86 \\
+      & \textbf{nonsense/splicing} &              4 &          266 &         92 \\
+      & \textbf{other} &             10 &           31 &          4 \\
+      & \textbf{truncating} &              0 &            0 &        466 \\
+\textbf{MDS} & \textbf{inframe} &              0 &            0 &          6 \\
+      & \textbf{missense} &              0 &          245 &        110 \\
+      & \textbf{nonsense/splicing} &              5 &          422 &        114 \\
+      & \textbf{other} &              2 &           15 &          3 \\
+      & \textbf{truncating} &              2 &            0 &        714 \\
+\textbf{MPN} & \textbf{inframe} &              0 &            0 &          1 \\
+      & \textbf{missense} &              0 &           73 &         35 \\
+      & \textbf{nonsense/splicing} &              0 &           66 &         17 \\
+      & \textbf{other} &              3 &           13 &          0 \\
+      & \textbf{truncating} &              1 &            0 &        139 \\
+\textbf{TOTAL} &            &             27 &         1320 &       1793 \\
+      &            &         0.01\% &       0.42\% &     0.57\% \\
+\bottomrule
+\end{tabular}
+

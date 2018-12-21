@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000.000000" height="86.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="29.835165" x2="29.835165" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="10"><circle cx="29.835165" cy="19.000000" r="9.974848" fill="#9b77da" /></a><line x1="74.340659" x2="74.340659" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="40"><circle cx="74.340659" cy="19.000000" r="9.974848" fill="#1c6cab" /></a><line x1="118.846154" x2="118.846154" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="70"><circle cx="118.846154" cy="19.000000" r="9.974848" fill="#d95858" /></a><line x1="163.351648" x2="163.351648" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="100"><circle cx="163.351648" cy="19.000000" r="9.974848" fill="#76a665" /></a><line x1="311.703297" x2="311.703297" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="200"><circle cx="311.703297" cy="19.000000" r="4.000000" fill="#1c6cab" /></a><line x1="371.043956" x2="371.043956" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="240"><circle cx="371.043956" cy="19.000000" r="6.069709" fill="#1c6cab" /></a><line x1="430.384615" x2="430.384615" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="280"><circle cx="430.384615" cy="19.000000" r="8.803806" fill="#1c6cab" /></a><line x1="489.725275" x2="489.725275" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="320"><circle cx="489.725275" cy="19.000000" r="10.514564" fill="#1c6cab" /></a><line x1="549.065934" x2="549.065934" y1="19.000000" y2="47.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="360"><circle cx="549.065934" cy="19.000000" r="13.703188" fill="#1c6cab" /></a><a xlink:title="TET2_HUMAN, Methylcytosine dioxygenase TET2 (2002aa)"><rect fill="#BABDB6" x="15.000000" y="47.000000" width="2970.000000" height="14.000000"/></a><g transform="translate(1928.736264,42.000000)"><a xlink:href="http://pfam.xfam.org/family/PF12851" xlink:title="Oxygenase domain of the 2OGFeDO superfamily "><rect fill="#2dcf00" x="0" y="0" width="912.362637" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:Arial;fill:#ffffff;" text-anchor="middle" x="456.181319" y="16.000000">Oxygenase domain of the 2OGFeDO superfamily </text></a></g>
+</svg>

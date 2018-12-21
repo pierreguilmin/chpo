@@ -1,0 +1,13 @@
+\begin{tabular}{llll}
+\toprule
+      & \textbf{status} & $\times$ sub & \checkmark \\
+\textbf{disease} & \textbf{consequence} &              &            \\
+\midrule
+\textbf{AML} & \textbf{missense} &            2 &        578 \\
+\textbf{MDS} & \textbf{missense} &            0 &        123 \\
+\textbf{MPN} & \textbf{missense} &            0 &         16 \\
+\textbf{TOTAL} &          &            2 &        717 \\
+      &          &       0.00\% &     1.00\% \\
+\bottomrule
+\end{tabular}
+

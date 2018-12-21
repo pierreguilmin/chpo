@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage[top=1.7cm, bottom=1.7cm, left=1.7cm, right=1.7cm]{geometry}
+\usepackage{fancyhdr}  % header
+\usepackage{graphicx}  % images
+\usepackage{longtable} % multiple pages table
+\usepackage{tikz}      % for loops
+\usepackage{multicol}  % multicolumns
+\usepackage{booktabs}  % pandas latex dataframes
+\usepackage{amsfonts}  % extra symbols
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\renewcommand{\labelitemi}{\raisebox{0.25ex}{\tiny$\bullet$}} % smaller bullets
+
+\title{Clinical Heme Panel Optimisation - Annex}
+\author{Papaemmanuil Lab | Pierre Guilmin}
+\date{December 2018}
+
+\fancyhead[L]{Papaemmanuil Lab}
+\fancyhead[C]{Clinical Heme Panel Optimisation - Annex}
+\fancyhead[R]{December 2018}
+
+\pagestyle{fancy}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+% ## Protein variant summary table (with count $\geq 10$)
+\section{Protein variant summary table (with count $\geq 10$)}
+\begin{center}
+{
+	\setlength\tabcolsep{3pt} % change col separation length
+	\input{dataframes/protein_variant_summary_table.txt}
+}
+\end{center}
+
+
+% ## Detailed OS plots by gene
+\newpage
+\section{Detailed OS plots by gene}
+
+\begin{multicols}{2}
+	\foreach \gene in {TET2, DNMT3A, JAK2, NPM1, SRSF2, RUNX1, ASXL1, NRAS, SF3B1, FLT3, TP53, IDH2, STAG2, CEBPA, U2AF1, EZH2, CALR, PTPN11, IDH1, KRAS, CBL, BCOR, WT1, NF1, ZRSR2, PHF6, KIT, GATA2, RAD21, MPL, SETBP1, CUX1, ETV6}
+	{
+		\centerline{\includegraphics[width=7.8cm, height=7.8cm]{{OS_plots_detailed/OS_\gene.png}}}
+	}
+\end{multicols}
+
+
+\end{document}

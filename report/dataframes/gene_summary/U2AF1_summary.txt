@@ -1,0 +1,18 @@
+\begin{tabular}{lllll}
+\toprule
+      & \textbf{status} & $\times$ indel & $\times$ sub & \checkmark \\
+\textbf{disease} & \textbf{consequence} &                &              &            \\
+\midrule
+\textbf{AML} & \textbf{inframe} &              1 &            0 &          0 \\
+      & \textbf{missense} &              0 &           14 &        216 \\
+\textbf{MDS} & \textbf{inframe} &              1 &            0 &          0 \\
+      & \textbf{missense} &              0 &            4 &        252 \\
+      & \textbf{other} &              1 &            0 &          0 \\
+\textbf{MPN} & \textbf{inframe} &              1 &            0 &          0 \\
+      & \textbf{missense} &              0 &            0 &         30 \\
+      & \textbf{other} &              1 &            0 &          0 \\
+\textbf{TOTAL} &       &              5 &           18 &        498 \\
+      &       &         0.01\% &       0.03\% &     0.96\% \\
+\bottomrule
+\end{tabular}
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 86" style="enable-background:new 0 0 1200 86;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#BABDB6;stroke-width:2;}
+	.st1{fill:#9B77DA;}
+	.st2{fill:#1C6CAB;}
+	.st3{fill:#D95858;}
+	.st4{fill:#76A665;}
+	.st5{fill:#BABDB6;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:15px;}
+</style>
+<line class="st0" x1="113.4" y1="19" x2="113.4" y2="47"/>
+<a xlink:title="100">
+	<circle class="st1" cx="113.4" cy="19" r="10"/>
+</a>
+<line class="st0" x1="310.2" y1="19" x2="310.2" y2="47"/>
+<a xlink:title="300">
+	<circle class="st2" cx="310.2" cy="19" r="10"/>
+</a>
+<line class="st0" x1="507" y1="19" x2="507" y2="47"/>
+<a xlink:title="500">
+	<circle class="st3" cx="507" cy="19" r="10"/>
+</a>
+<line class="st0" x1="703.8" y1="19" x2="703.8" y2="47"/>
+<a xlink:title="700">
+	<circle class="st4" cx="703.8" cy="19" r="10"/>
+</a>
+<line class="st0" x1="940" y1="19" x2="940" y2="47"/>
+<a xlink:title="940">
+	<circle class="st2" cx="940" cy="19" r="6.1"/>
+</a>
+<line class="st0" x1="989.3" y1="19" x2="989.3" y2="47"/>
+<a xlink:title="980">
+	<circle class="st2" cx="989.3" cy="19" r="8.8"/>
+</a>
+<line class="st0" x1="1038.7" y1="19" x2="1038.7" y2="47"/>
+<a xlink:title="1020">
+	
+		<ellipse transform="matrix(0.2921 -0.9564 0.9564 0.2921 717.1211 1006.8463)" class="st2" cx="1038.7" cy="19" rx="10.5" ry="10.5"/>
+</a>
+<line class="st0" x1="1088.1" y1="19" x2="1088.1" y2="47"/>
+<a xlink:title="1060">
+	<circle class="st2" cx="1088.1" cy="19" r="13.7"/>
+</a>
+<a xlink:title="TET2_HUMAN, Methylcytosine dioxygenase TET2 (2002aa)">
+	<rect y="47" class="st5" width="1200" height="14"/>
+</a>
+<text transform="matrix(1 0 0 1 39.8008 79.4028)" class="st6 st7">multiple consequences</text>
+<text transform="matrix(1 0 0 1 445.1226 79.4023)" class="st6 st7">missense or inframe</text>
+<text transform="matrix(1 0 0 1 210.0402 79.4021)" class="st6 st7">nonsense/splicing or truncating</text>
+<text transform="matrix(1 0 0 1 687.4287 79.4023)" class="st6 st7">other</text>
+<text transform="matrix(1 0 0 1 923.8217 79.4025)" class="st6 st7">n = 1</text>
+<text transform="matrix(1 0 0 1 974.5319 79.4033)" class="st6 st7">n = 3</text>
+<text transform="matrix(1 0 0 1 1019.1817 79.4025)" class="st6 st7">n = 10</text>
+<text transform="matrix(1 0 0 1 1068.3536 79.4025)" class="st6 st7">n = 50</text>
+</svg>

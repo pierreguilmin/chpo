@@ -1,0 +1,22 @@
+# Pierre's specific
+temp/
+**/.DS_Store
+**/.ipynb_checkpoints
+**/__pycache__
+**/.texpadtmp
+
+# .gitignore specific
+!.gitkeep
+
+# data/
+data/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/mart_export.txt
+
+# lollipops
+lollipops/**
+
+# temp
+temp/*
+!temp/.gitkeep
