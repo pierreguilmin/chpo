@@ -1,6 +1,5 @@
 name: chpo_env
 channels:
-  - bioconda
   - defaults
 dependencies:
   - libffi=3.2.1=1
