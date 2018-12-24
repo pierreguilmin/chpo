@@ -94,5 +94,5 @@ The `data/` folder should contain:
 
 - [x] rename and format github
 - [X] OS plots for missense vs truncating
-- [ ] lolliplots height issue: lolliplots are truncated when some mutation circle goes too high
-- [ ] lolliplots `get_label()` issue
+- [ ] lolliplots height issue: lolliplots are truncated when some mutation circles goes too high
+- [ ] lolliplots `get_label()` issue: the function is incorrect when there are overlaying mutations
