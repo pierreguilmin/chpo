@@ -13,7 +13,6 @@ data/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/processed/mart_export.txt
-!data/processed/mart_export.txt
 !data/processed/protein_variant_summary_table.csv
 
 # lollipops
