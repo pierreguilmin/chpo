@@ -9,7 +9,7 @@
 	.st3{fill:#D95858;}
 	.st4{fill:#76A665;}
 	.st5{fill:#BABDB6;}
-	.st6{font-family:'MyriadPro-Regular';}
+	.st6{font-family:'ArialMT';}
 	.st7{font-size:15px;}
 </style>
 <line class="st0" x1="113.4" y1="19" x2="113.4" y2="47"/>
@@ -38,8 +38,7 @@
 </a>
 <line class="st0" x1="1038.7" y1="19" x2="1038.7" y2="47"/>
 <a xlink:title="1020">
-	
-		<ellipse transform="matrix(0.2921 -0.9564 0.9564 0.2921 717.1211 1006.8463)" class="st2" cx="1038.7" cy="19" rx="10.5" ry="10.5"/>
+	<ellipse class="st2" cx="1038.7" cy="19" rx="10.5" ry="10.5"/>
 </a>
 <line class="st0" x1="1088.1" y1="19" x2="1088.1" y2="47"/>
 <a xlink:title="1060">
@@ -49,8 +48,8 @@
 	<rect y="47" class="st5" width="1200" height="14"/>
 </a>
 <text transform="matrix(1 0 0 1 39.8008 79.4028)" class="st6 st7">multiple consequences</text>
-<text transform="matrix(1 0 0 1 445.1226 79.4023)" class="st6 st7">missense or inframe</text>
-<text transform="matrix(1 0 0 1 210.0402 79.4021)" class="st6 st7">nonsense/splicing or truncating</text>
+<text transform="matrix(1 0 0 1 243.1788 79.4023)" class="st6 st7">missense or inframe</text>
+<text transform="matrix(1 0 0 1 404.22 79.403)" class="st6 st7">nonsense/splicing or truncating</text>
 <text transform="matrix(1 0 0 1 687.4287 79.4023)" class="st6 st7">other</text>
 <text transform="matrix(1 0 0 1 923.8217 79.4025)" class="st6 st7">n = 1</text>
 <text transform="matrix(1 0 0 1 974.5319 79.4033)" class="st6 st7">n = 3</text>

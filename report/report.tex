@@ -78,16 +78,16 @@ Brief overview of the pan-myeloid dataset:
 
 % ## Genes not included in the selected exons list
 \subsection{Genes not included in the selected exons list}
-\fbox{$\approx 31\%$} of the indels are not in the selected exons gene panel. The following plot shows the distribution of the main unreported genes:\csp
+\fbox{$\approx 31\%$} of the indels belong to genes not included in the selected exons list. The following plot shows the distribution of the main unreported genes for indels:\csp
 \centerline{\includegraphics[scale=0.52]{{figures/fig2.png}}}
 
 % ## Indels identified in genes with partial exon reporting
 \subsection{Indels identified in genes with partial exon reporting}
-Only \fbox{$\approx 2\%$} of the indels are in the selected exons gene panel, but not in the selected exons list. The following plot shows the distribution of the genes having some unreported exons:\csp
-\centerline{\includegraphics[scale=0.52]{{figures/fig3.png}}}
+Only \fbox{$\approx 2\%$} of the indels belong to genes with partial exon reporting. The following plot shows the distribution of the genes having some unreported exons:\csp
+\centerline{\includegraphics[scale=0.52]{{figures/fig3.png}}}\\
 
 \noindent
-Here is a table of the unreported exons for the genes above (NA $\Leftrightarrow$ no corresponding exon found in transcript list):\csp
+Here is a table of the unreported exons for the genes above. The table lists for each gene the missed exon numbers and how many indels belonging to that specific exon were missed (NA $\Leftrightarrow$ no corresponding exon found in transcript list). For example the first line means: 30 indels belonging to exon 11 of ASLX1 were missed as well as 1 indel belonging to an unidentified part of ASLX1.\\\\
 {
 	\small
 	\begin{tabular}{|l|l|l|l|}
@@ -109,16 +109,16 @@ Here is a table of the unreported exons for the genes above (NA $\Leftrightarrow
 	    CALR    & 7 (n = 1)\\ \hline
 	    FLT3    & 3 (n = 1) \\ \hline
 	\end{tabular}
-}
+}\\\\
 
 % ## Summary table
 \subsection{Summary table}
 \begin{tabular}{|l|c|c|}
 	\hline
 	\textbf{indel status} & \textbf{count} & \textbf{frequency} \\ \hline
-	in exons list                             & $5,267$ & $66,70\%$ \\ \hline
-	not in exons gene panel                   & $2,481$ & $31,42\%$ \\ \hline
-	in exons gene panel but not in exons list & $148$   & $1,87\%$  \\ \hline
+	in exons list                                           & $5,267$ & $66,70\%$ \\ \hline
+	belongs to gene not included in the selected exons list & $2,481$ & $31,42\%$ \\ \hline
+	belongs to gene with partial exon reporting             & $148$   & $1,87\%$  \\ \hline
 \end{tabular}
 
 
@@ -132,7 +132,7 @@ Here is a table of the unreported exons for the genes above (NA $\Leftrightarrow
 
 % ## Genes not included in the selected hotspots list
 \subsection{Genes not included in the selected hotspots list}
-\fbox{$\approx 7\%$} of the substitutions are not in the selected hotspots gene panel. The following plot shows the distribution of the main unreported genes:\csp
+\fbox{$\approx 7\%$} of the substitutions belong to genes not included in the selected hotspots list. The following plot shows the distribution of the main unreported genes for substitutions:\csp
 \centerline{\includegraphics[scale=0.52]{{figures/fig4.png}}}
 
 \noindent
@@ -140,12 +140,12 @@ Here is the same plot stratified by mutation consequence:\csp
 \centerline{\includegraphics[scale=0.52]{{figures/fig4.2.png}}}
 
 \noindent
-Here is a figure of the 50 most recurrent unreported substitutions which are not in the selected hotspots gene panel:\csp
+Here is a figure of the 50 most recurrent unreported substitutions belonging to genes not included in the selected hotspots list:\csp
 \centerline{\includegraphics[scale=0.52]{{figures/fig4.3.png}}}
 
 % ## Substitutions identified in genes with partial hotspot reporting
 \subsection{Substitutions identified in genes with partial hotspot reporting}
-\fbox{$\approx 31\%$} of the substitutions are in the selected hotspots gene panel, but not in the selected hotspots list. The following plot shows the distribution of the main genes having some unreported substitutions:\csp
+\fbox{$\approx 31\%$} of the substitutions belong to genes with partial hotspot reporting. The following plot shows the distribution of the main genes having some unreported substitutions:\csp
 \centerline{\includegraphics[scale=0.52]{{figures/fig5.png}}}
 
 \noindent
@@ -161,9 +161,9 @@ Here is a figure of the 50 most recurrent unreported substitutions\footnote{\ se
 \begin{tabular}{|l|c|c|}
 	\hline
 	\textbf{substitution status} & \textbf{count} & \textbf{frequency} \\ \hline
-	in hotspots list                                & $11,015$ & $62,70\%$ \\ \hline
-	not in hotspots gene panel                      & $1,153$  & $6,56\%$  \\ \hline
-	in hotspots gene panel but not in hotspots list & $5,399$  & $30,73\%$ \\ \hline
+	in hotspots list                                           & $11,015$ & $62,70\%$ \\ \hline
+	belongs to gene not included in the selected hotspots list & $1,153$  & $6,56\%$  \\ \hline
+	belongs to gene with partial hotspot reporting            & $5,399$  & $30,73\%$ \\ \hline
 \end{tabular}
 
 
@@ -217,12 +217,12 @@ Lookup table gene $\leftrightarrow$ page: \\\\
 \toprule
 gene & page & gene & page & gene & page & gene & page & gene & page & gene & page \\
 \midrule
-    TET2   & 7  & ASXL1  & 13 & STAG2  & 19 & IDH1   & 25 & ZRSR2  & 31 & SETBP1 & 37 \\
-    DNMT3A & 8  & NRAS   & 14 & CEBPA  & 20 & KRAS   & 26 & PHF6   & 32 & CUX1   & 38 \\
-    JAK2   & 9  & SF3B1  & 15 & U2AF1  & 21 & CBL    & 27 & KIT    & 33 & ETV6   & 39 \\
-    NPM1   & 10 & FLT3   & 16 & EZH2   & 22 & BCOR   & 28 & GATA2  & 34 \\
-    SRSF2  & 11 & TP53   & 17 & CALR   & 23 & WT1    & 29 & RAD21  & 35 \\
-    RUNX1  & 12 & IDH2   & 18 & PTPN11 & 24 & NF1    & 30 & MPL    & 36 \\
+    TET2   & 8  & ASXL1  & 14 & STAG2  & 20 & IDH1   & 26 & ZRSR2  & 32 & SETBP1 & 38 \\
+    DNMT3A & 9  & NRAS   & 15 & CEBPA  & 21 & KRAS   & 27 & PHF6   & 33 & CUX1   & 39 \\
+    JAK2   & 10 & SF3B1  & 16 & U2AF1  & 22 & CBL    & 28 & KIT    & 34 & ETV6   & 40 \\
+    NPM1   & 11 & FLT3   & 17 & EZH2   & 23 & BCOR   & 29 & GATA2  & 35 \\
+    SRSF2  & 12 & TP53   & 18 & CALR   & 24 & WT1    & 30 & RAD21  & 36 \\
+    RUNX1  & 13 & IDH2   & 19 & PTPN11 & 25 & NF1    & 31 & MPL    & 37 \\
 \bottomrule
 \end{tabular}
 
@@ -268,7 +268,8 @@ gene & page & gene & page & gene & page & gene & page & gene & page & gene & pag
 	\IfFileExists{lolliplots/indels/\gene_unreported.png}
 	{
 		% TET2, DNMT3A and RUNX1 unreported indels have been checked and are just one base pair from the beginning/end of the exons, they would have been reported
-		\ifthenelse{\equal{\gene}{TET2} \OR \equal{\gene}{DNMT3A} \OR \equal{\gene}{RUNX1}}
+		% NPM1, Elli's choice
+		\ifthenelse{\equal{\gene}{TET2} \OR \equal{\gene}{DNMT3A} \OR \equal{\gene}{RUNX1} \OR \equal{\gene}{NPM1}}
 		{ No unreported indel found.\\ } 
 		{ \fcolorbox{c_orange}{white}{\centerline{\includegraphics[scale=0.1]{{lolliplots/indels/\gene_unreported.png}}}} }
 	}
@@ -308,7 +309,7 @@ gene & page & gene & page & gene & page & gene & page & gene & page & gene & pag
 
 % ## Unreported substitutions table (with count $\geq 5$)
 \subsection{Unreported substitutions table (with count $\geq 5$)}
-Table of the substitutions identified in genes with partial hotspot reporting.
+Table of the unreported substitutions belonging to genes with partial hotspot reporting.
 \begin{center}
 	\input{dataframes/unreported_substitutions_table.txt}
 \end{center}
