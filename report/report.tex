@@ -191,7 +191,7 @@ At the patient level, we have:
 % ## Overview
 \subsection{Overview}
 The following plot shows the proportion of unreported mutation for the most recurrent mutated genes\footnote{\ see supplementary material 2 for the complete table}:\csp
-\centerline{\includegraphics[scale=0.52]{{figures/fig6.png}}}\\
+\centerline{\includegraphics[scale=0.52]{{figures/fig6.png}}}
 
 \noindent
 In the next part we propose an analysis gene by gene for the 33 most recurrent mutated genes (see lookup table under) gathering:
@@ -206,13 +206,13 @@ In the next part we propose an analysis gene by gene for the 33 most recurrent m
 		  \end{itemize}
 		  Warning, the number indicated in each category represents the number of patient used to plot the curve (modulo the missing values).
 	\item A pivot table showing the count of mutation reported (\checkmark) and unreported ($\times$) stratified by disease (AML, MDS or MPN) and mutation consequence (inframe, missense, nonsense/splicing, truncating or other).
-	\item 4 lolliplots of the gene, two for indels (reported vs unreported) and two for substitutions (reported vs unreported).
-		Warning, these lolliplots don't take into account the splicing mutations. The color of the mutation circle represents its consequence, the size of the mutation circle represents its occurence in the dataset, see legend:\\\\
-		\includegraphics[width=17cm]{{lolliplots_legend.png}}\\
+	\item 4 lolliplots of the gene, two for indels (reported vs unreported) and two for substitutions (reported vs unreported). The color of the mutation circle represents its consequence, the size of the mutation circle represents its occurence in the dataset, see legend:\\\\
+		\includegraphics[width=17cm]{{lolliplots_legend.png}}\csp
+		\textcolor{red}{\textbf{Warning:}} these lolliplots don't take into account the splicing mutations. Also sometimes the package used to plot the lolliplots chooses a too short gene frame for a given gene (WT1 for example), which may hide some mutations on the plot.
 \end{itemize}
 
 \noindent
-Lookup table gene $\leftrightarrow$ page: \\\\
+Lookup table gene $\leftrightarrow$ page:\\\\
 \begin{tabular}{lr|lr|lr|lr|lr|lr}
 \toprule
 gene & page & gene & page & gene & page & gene & page & gene & page & gene & page \\
@@ -260,7 +260,7 @@ gene & page & gene & page & gene & page & gene & page & gene & page & gene & pag
 	{
 		\fcolorbox{c_purple}{white}{\centerline{\includegraphics[scale=0.1]{{lolliplots/indels/\gene_reported.png}}}}\\
 	}
-	{ This gene was not reported for exons (or no reported mutation was found in the dataset).\\ }
+	{ This gene was not reported for exons (or no reported indel was found in the dataset).\\ }
 	
 	% unreported indels
 	\noindent
@@ -282,8 +282,12 @@ gene & page & gene & page & gene & page & gene & page & gene & page & gene & pag
 	\IfFileExists{lolliplots/substitutions/\gene_reported.png}
 	{
 		\fcolorbox{c_purple}{white}{\centerline{\includegraphics[scale=0.1]{{lolliplots/substitutions/\gene_reported.png}}}}\\
+		% JAK2 special note
+		\ifthenelse{\equal{\gene}{JAK2}} {\noindent\textsuperscript{*}the grey trunc with no blob at the end at position 615 represents 2 mutations at protein position 615 (visualisation package error), the big blue blob represents 1622 mutations at protein position \textbf{617 and not 615} (it is the JAK2 most recurrent hotspot)\\}{}
+		% WT1 special note
+		\ifthenelse{\equal{\gene}{WT1}} {\noindent\textsuperscript{*}the 31 reported substitutions are at protein position 462 which is not in the gene frame on this plot\\}{}
 	}
-	{ This gene was not reported for hostpots (or no reported mutation was found in the dataset).\\ }
+	{ This gene was not reported for hostpots (or no reported substitution was found in the dataset).\\ }
 	
 	% unreported substitutions
 	\noindent
@@ -291,11 +295,12 @@ gene & page & gene & page & gene & page & gene & page & gene & page & gene & pag
 	\IfFileExists{lolliplots/substitutions/\gene_unreported.png}
 	{
 		\fcolorbox{c_orange}{white}{\centerline{\includegraphics[scale=0.1]{{lolliplots/substitutions/\gene_unreported.png}}}}
+		% TET2 special note
+		\ifthenelse{\equal{\gene}{TET2}} {\textsuperscript{*} likely germline infiltration}{}
 	}
 	{ No unreported substitution found.\\ }
 	
-	% TET2 special note
-	\ifthenelse{\equal{\gene}{TET2}} {\textsuperscript{*} likely germline infiltration}{}
+	
 }
 
 
